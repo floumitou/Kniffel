@@ -1,4 +1,2 @@
 # Kniffel
-Kniffel für Programmieren
-
-Pull Test
+Kniffel für Programmieren bei Dr. Kohlmüller
