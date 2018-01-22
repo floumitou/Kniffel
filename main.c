@@ -1,6 +1,23 @@
 #include <stdio.h>
+#include <stdbool.h>
+
+bool spiel=true;
+
 
 int main() {
-    printf("Hello, World!\n");
-    return 0;
+    spielVorgang();
+}
+
+//returnt false, falls das Spiel vorbei ist. Sonst true.
+bool checkSpielVorbei(){
+    //TODO: Check Bedingungen ob Spiel vorbei
+    return false;
+}
+
+//geht den Spielvorgang jede Runde durch.
+void spielVorgang(){
+    while(spiel==true){
+        //TODO: Spielvorgang durchlaufen
+        spiel = checkSpielVorbei();
+    }
 }
