@@ -17,6 +17,7 @@ void wuerfeln(){
     }
 
     for(int durchgang=1; durchgang <= 3 ; durchgang++) {
+        
         //Würfeln und Würfe ausgeben
         for (int i = 0; i < 5; i++) {
             if (!behalten[i]) {
