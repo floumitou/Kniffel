@@ -7,11 +7,11 @@ bool spiel=true;
 
 
 
-//wuerfelt die Würfel die gewürfelt werden sollen und fragt welche behalten werden sollen.
+//Kompletter Würfelvorgang (3 mal würfeln und beliebige behalten)
 void wuerfeln(){
     int wuerfe[6];
     bool behalten[6];
-
+    //Initialisierung
     for(int i=0;i<5;i++){
         behalten[i]=false;
     }
@@ -43,7 +43,7 @@ void wuerfeln(){
             }
 
         }
-        printf("j\n");
+        printf("\n");
     }
     return;
 }
